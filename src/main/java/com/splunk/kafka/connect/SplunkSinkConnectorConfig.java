@@ -98,7 +98,7 @@ public final class SplunkSinkConnectorConfig extends AbstractConfig {
     static final String MAX_HTTP_CONNECTION_PER_CHANNEL_DOC = "Max HTTP connections pooled for one HEC Channel "
             + "when posting events to Splunk.";
     static final String MAX_BATCH_SIZE_DOC = "Maximum batch size when posting events to Splunk. The size is the actual number of "
-            + "Kafka events not the byte size. By default, this is set to 100.";
+            + "Kafka events not the byte size. By default, this is set to 500.";
     static final String HTTP_KEEPALIVE_DOC = "Valid settings are true or false. Enables or disables HTTP connection "
             + "keep-alive. By default, this is set to true";
     static final String HEC_THREADS_DOC = "Controls how many threads are spawned to do data injection via HEC in a single "
